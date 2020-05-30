@@ -1,5 +1,5 @@
 {
-  "name": "livestream-server",
+  "name": "chat-video-call-server",
   "version": "0.0.1",
   "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
   "main": "src/app.js",
@@ -12,12 +12,13 @@
     "nodemon": "^2.0.3"
   },
   "scripts": {
+    "start": "node src/app.js",
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amirsanni/livestream-server.git"
+    "url": "git+https://github.com/1243035/Video-Call-App-NodeJS.git"
   },
   "keywords": [
     "LiveStream",
